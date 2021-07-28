@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
+
 * {
   padding: 0;
   margin: 0;
+  font-family: "Padauk", sans-serif;
+  /* background-color: silver; */
 }
 
 h1 {
@@ -15,14 +19,20 @@ div.image {
   text-align: center;
 }
 
+.tutorials h2 {
+  font-size: 40px;
+}
+
 .tutorials dt {
   line-height: 2rem;
-  font-size: large;
+  font-size: 25px;
 }
 
 .tutorials dd {
   margin: 8px;
   line-height: 25px;
+  padding: 15px;
+  font-size: 20px;
 }
 
 #name {
@@ -44,6 +54,7 @@ div.image {
 .register h2 {
   text-align: center;
   margin: 22px;
+  font-size: 40px;
 }
 
 .register form {
@@ -51,6 +62,7 @@ div.image {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-size: 20px;
 }
 
 .btn {
@@ -63,6 +75,7 @@ div.image {
   border: 2px solid silver;
   box-shadow: none;
   cursor: pointer;
+  font-size: 15px;
 }
 
 .btn:hover {
@@ -73,6 +86,7 @@ div.image {
 select {
   padding: 10px;
   margin: 5px;
+  font-size: 15px;
 }
 
 footer {
@@ -81,4 +95,5 @@ footer {
 
 p {
   line-height: 34px;
+  font-size: 25px;
 }
