@@ -25,6 +25,18 @@ div.image {
   line-height: 25px;
 }
 
+#name {
+  padding: 10px;
+  border: 2px solid silver;
+  /* border-radius: 22px; */
+}
+
+#age {
+  width: 7%;
+  padding: 8px;
+  border: 2px solid silver;
+}
+
 .register {
   margin: 24px;
 }
@@ -35,4 +47,38 @@ div.image {
 }
 
 .register form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  border-radius: 22px;
+  width: 10%;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid silver;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+select {
+  padding: 10px;
+  margin: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+p {
+  line-height: 34px;
 }
