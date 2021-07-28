@@ -9,6 +9,8 @@
 
 h1 {
   margin-top: 70px;
+  font-size: 44px;
+  color: #001e6c;
 }
 
 div.image {
@@ -17,15 +19,20 @@ div.image {
 
 .tutorials {
   text-align: center;
+  /* color: #5089c6; */
 }
 
 .tutorials h2 {
   font-size: 40px;
+  color: #5089c6;
 }
 
 .tutorials dt {
   line-height: 2rem;
   font-size: 25px;
+  /* color: #7c83fd; */
+  color: #3c5186;
+  font-weight: 600;
 }
 
 .tutorials dd {
@@ -55,6 +62,7 @@ div.image {
   text-align: center;
   margin: 22px;
   font-size: 40px;
+  color: #5089c6;
 }
 
 .register form {
@@ -63,6 +71,8 @@ div.image {
   justify-content: center;
   flex-direction: column;
   font-size: 20px;
+  color: #3c5186;
+  font-weight: 600;
 }
 
 .btn {
@@ -96,4 +106,5 @@ footer {
 p {
   line-height: 34px;
   font-size: 25px;
+  color: #185adb;
 }
